@@ -1,0 +1,34 @@
+.calculator{
+    margin : 0 auto;
+    width : 400px ;
+    font-size:   30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(50px,auto);
+    border: 2px solid;
+
+}
+.result{
+    min-height: 95px;
+    padding: 5px;
+    grid-column : 1/5;
+    background-color:rgba(224, 221, 221, 0.699);
+    border-color: black;
+}
+.delete{
+    grid-column: 2/4;
+    background-color: rgb(201, 201, 201);
+
+}
+.remove{
+    background-color: rgb(201, 201, 201);
+}
+.btn,.btnop{
+    font-size: 15px;
+}
+.btnop{
+    background-color: rgb(201, 201, 201);
+}
+.btnopequal{
+    background-color:rgb(58, 228, 228) ;
+}
